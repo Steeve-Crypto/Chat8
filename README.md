@@ -15,7 +15,6 @@ A beautiful, flexible Streamlit application that wraps around any **OpenAI-compa
 
 ### 1. Install dependencies
 ```bash
-cd llm_streamlit_app
 pip install -r requirements.txt
 ```
 
@@ -63,6 +62,6 @@ You can extend this app easily:
 - Add **image upload** for vision models (Grok supports vision)
 - Deploy to Streamlit Cloud, Hugging Face Spaces, or your server
 
-Built with ❤️ using Streamlit + OpenAI SDK (compatible layer)
+Streamlit + OpenAI SDK (compatible layer)
 
 *Note: This is a local app. Never share your API keys. For production, add authentication.*
