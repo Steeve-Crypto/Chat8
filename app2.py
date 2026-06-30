@@ -13,7 +13,7 @@ import re
 
 # Page config
 st.set_page_config(
-    page_title="LLM Wrapper • Streamlit Chat",
+    page_title=" Chat 8 ",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
