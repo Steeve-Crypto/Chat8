@@ -13,7 +13,7 @@ import re
 
 # Page config
 st.set_page_config(
-    page_title=" Chat 8 ",
+    page_title="Chat 8 • Streamlit Chat",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -268,7 +268,7 @@ for key, default in [
 
 # Sidebar
 with st.sidebar:
-    st.header("⚙️ LLM Wrapper - Agentic RAG + Multi-Agent")
+    st.header("⚙️ Chat8 - Agentic RAG + Multi-Agent")
 
     provider_name = st.selectbox("Provider", list(PROVIDERS.keys()))
     st.session_state.current_provider = provider_name
@@ -419,7 +419,7 @@ def call_agent(client, agent, shared_history, global_tools, global_params, base_
         return f"Error in {agent_name}: {str(e)}", []
 
 # ============== MAIN CHAT ==============
-st.markdown('<h1 class="main-header">🤖 LLM Wrapper</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">🤖 Chat8</h1>', unsafe_allow_html=True)
 st.markdown('<p class="sub-header">Agentic RAG • Vector Store • Graph-capable • Multi-Agent with Memory & Vision</p>', unsafe_allow_html=True)
 
 if st.session_state.api_key:

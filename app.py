@@ -5,7 +5,7 @@ from datetime import datetime
 
 # Page config
 st.set_page_config(
-    page_title=" Chat 8 ",
+    page_title="Chat 8",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -207,7 +207,7 @@ with st.sidebar:
     st.caption("Made with Streamlit • Works with any OpenAI-compatible API")
 
 # ============== MAIN CHAT AREA ==============
-st.markdown('<h1 class="main-header">🤖 LLM Wrapper</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">Chat 8</h1>', unsafe_allow_html=True)
 st.markdown('<p class="sub-header">Chat with any LLM • Powered by Streamlit + OpenAI SDK</p>', unsafe_allow_html=True)
 
 # Show current config
