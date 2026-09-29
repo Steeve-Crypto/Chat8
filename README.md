@@ -1,4 +1,4 @@
-# Chat8 — OpenAI-compatible LLM chat (Streamlit)
+# Chat8 - OpenAI-compatible LLM chat (Streamlit)
 
 A local Streamlit chat app that wraps any **OpenAI-compatible** LLM API (xAI Grok, OpenAI, Groq, Together.ai, Ollama, vLLM, LM Studio, or a custom base URL).
 
